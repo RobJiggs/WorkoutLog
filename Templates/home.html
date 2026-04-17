@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="titlebox">
+    <h2 class="Worktype-Title">All Workouts</h2>
+</div>
+<div class="table-table">
+    {% for sesh in sessions | sort(attribute='date') %}
+    <div class="session-container">
+        <div class="Work-info">
+            <h5 class="worktype-date">{{ sesh.work.value }}</h5>
+
+            <h5 class="worktype-date">{{ sesh.date }}</h5>
+        </div>
+        <table class="worktype-table">
+            <tr>
+                <th>Workout</th>
+                <th>Description</th>
+            </tr>
+            {% for work in sesh.workouts %}
+            <tr>
+                <td class="work-name-worktype">{{ work.name }}</td>
+                <td class="work-desc-worktype">{{ work.desc }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+        <button class="workoutbutton{{ sesh.id }}">+</button>
+        <div id="additional{{ sesh.id }}"></div>
+    </div>
+    {% endfor %}
+</div>
+
+<div class="New-session">
+    <input
+            type="date"
+            id="wsdate"
+            name="Workout-Session"
+
+            min="1994-12-20"/>
+    <label for="sesh-sel">Choose a Session Type</label>
+
+    <select name="session-select" id="sesh-sel"
+            class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split session-type">
+        <option value="Weights">Weights</option>
+        <option value="GymCardio">GymCardio</option>
+        <option value="Basketball">Basketball</option>
+
+    </select>
+    <button id="create-sesh"> Create new session</button>
+
+</div>
+{% endblock content %}
+
+
+{% block scripts %}
+<script src="{{ url_for('static', path='js/edit-sesh.js') }}"></script>
+{% endblock %}

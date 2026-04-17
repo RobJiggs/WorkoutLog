@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="titlebox">
+    <h2 class="Worktype-Title">Weight Workouts</h2>
+</div>
+<div class="table-table">
+    {% for sesh in sessions | sort(attribute='date') %}
+    <div class="session-container">
+        <h5 class="worktype-date">{{ sesh.date }}</h5>
+        <table class="worktype-table">
+            <tr>
+                <th>Workout</th>
+                <th>Description</th>
+            </tr>
+            {% for work in sesh.workouts %}
+            <tr>
+                <td class="work-name-worktype">{{ work.name }}</td>
+                <td class="work-desc-worktype">{{ work.desc }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+    {% endfor %}
+</div>
+
+
+{% endblock content %}

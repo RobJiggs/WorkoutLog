@@ -1,0 +1,78 @@
+.work-desc{
+  font-size:15px;
+
+
+}
+
+.work-name{
+  font-size:18px;
+  font-weight:900;
+  border:solid;
+  border-color:crimson;
+  text-align:center;
+  display:grid;
+  width:50%;
+}
+
+
+
+
+.new-session{
+    text-align:center;
+
+}
+
+.Worktype-Title{
+    text-align:center;
+
+
+
+
+}
+
+.titlebox{
+    border-style: solid;
+    background-color:#bcbcbc;
+    color:#4a058b;
+
+}
+
+
+.table-table {
+    display: flex;       /* Aligns items side-by-side */
+    flex-wrap: wrap;    /* Moves items to next line when full */
+    gap: 20px;          /* Adds space between the tables */
+    padding: 20px;
+}
+
+.session-container {
+    flex: 0 1 auto;     /* Allows tables to take only the space they need */
+    min-width: 300px;   /* Optional: prevents tables from getting too squished */
+}
+
+.worktype-table {
+    border-collapse: collapse;
+    width: 100%;/* Table fills its specific container */
+    max-width:350;
+}
+
+
+.table-table table,td,tr {
+
+border: solid #4a058b;
+
+
+}
+
+.Work-info{
+display:flex;
+gap: 5px;
+
+
+}
+
+
+.work-name-worktype{
+
+
+}
