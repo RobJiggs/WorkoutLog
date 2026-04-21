@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div>
+    {% for monthkey, monthval in month_dict.items() %}
+    <h2 class="month-year">{{monthkey}}</h2>
+     {% endfor %}
+</div>
+
+
+
+{% endblock content %}

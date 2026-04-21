@@ -51,10 +51,10 @@ document.querySelectorAll("[class*=workoutbutton]").forEach((button) => {
     nameid= "form-name"+logvalue;
     descid="form-desc"+logvalue;
     additional.innerHTML=`<form class="form-group">
-    <label for="${nameid}" class="form-label">Exercise Name</label>
-    <br> <input type="text" id=${nameid} value="Exercise" ><br>
-    <label for="${descid}">Exercise description</label>
-    <br><input type="text" id="${descid}" value="Description"></form>
+    <label for="${nameid}" class="form-label">Name</label>
+    <br> <input type="text" id=${nameid} value="" ><br>
+    <label for="${descid}">Description</label>
+    <br><input type="text" id="${descid}" value=""></form>
     <button class="savebutton${logvalue} btn btn-success">Save</button>
     `;
     button.style.display="none"

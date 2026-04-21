@@ -247,3 +247,42 @@ def basketball(request: Request, db: Session = Depends(get_db)):
     "basketball.html",
     {"request": request, "sessions":worksessions},
 )
+
+@app.get("/session/best")
+def best_count(request: Request, db: Session = Depends(get_db)):
+    month_dict={}
+    for i in range(1, 13):
+        this_year = dt_date.today().year
+        begin_month=dt_date.today().replace(month=i,day=1)
+        last_day = calendar.monthrange(this_year, begin_month.month)[1]
+
+        end_month = begin_month.replace(day=last_day)
+        year = str(dt_date.today().year)[2:4]
+        month_name = calendar.month_name[end_month.month]
+        worksessions = db.query(Worksession).filter(Worksession.date.between(begin_month, end_month)).order_by(Worksession.date.asc()).all()
+        count=0
+        m_list = []
+
+        if len(worksessions)>0:
+            for worksession in worksessions:
+                count+=db.query(Workout).filter(Workout.worksession_id==worksession.id).count()
+                workouts=db.query(Workout).filter(Workout.worksession_id==worksession.id).all()
+
+
+                for workout in workouts:
+                    m_list.append(workout)
+            m_list.append(count)
+            m_list.reverse()
+            month_dict[month_name + " '" + year] = m_list
+
+
+        else:
+            m_list.append(count)
+            month_dict[month_name + " '" + year] = m_list
+
+
+
+    return templates.TemplateResponse(
+            "best.html",
+            {"request": request, "sessions": worksessions,"month_dict":month_dict},
+        )

@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9120ea2f-936b-4846-8c70-18824e1e9e56" name="Changes" comment="Ball workout" />
+    <list default="true" id="9120ea2f-936b-4846-8c70-18824e1e9e56" name="Changes" comment="Workout Logs">
+      <change afterPath="$PROJECT_DIR$/Templates/best.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Workout.py" beforeDir="false" afterPath="$PROJECT_DIR$/Workout.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/edit-sesh.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/edit-sesh.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workouts.db" beforeDir="false" afterPath="$PROJECT_DIR$/workouts.db" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +28,21 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "RobJiggs"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/RobJiggs/WorkoutLog.git",
+    "accountId": "da12b68d-c66a-4b5f-8a7a-ad838ec25753"
+  }
+}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Workout.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -39,7 +62,7 @@
     "Python.Workout.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "git-widget-placeholder": "Rebasing master",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/RobertJoasilus/PycharmProjects/WorkoutLog",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
@@ -97,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776456258504</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Workout Logs">
+      <option name="closed" value="true" />
+      <created>1776456571001</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1776456571001</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,6 +156,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ball workout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ball workout" />
+    <MESSAGE value="Workout Logs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Workout Logs" />
   </component>
 </project>
