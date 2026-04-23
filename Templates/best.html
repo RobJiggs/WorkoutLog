@@ -5,7 +5,7 @@
 <div>
     {% for monthkey, monthval in month_dict.items() %}
     <h2 class="month-year">{{monthkey}}</h2>
-    {% val in monthval %}
+    {% for val in monthval %}
     <p>{{val}}</p>
     {% endfor %}
      {% endfor %}
