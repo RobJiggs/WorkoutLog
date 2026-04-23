@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9120ea2f-936b-4846-8c70-18824e1e9e56" name="Changes" comment="Workout Logs">
-      <change beforePath="$PROJECT_DIR$/Templates/best.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/best.html" afterDir="false" />
-    </list>
+    <list default="true" id="9120ea2f-936b-4846-8c70-18824e1e9e56" name="Changes" comment="Workout Logs" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -162,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776972258028</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Workout Logs">
+      <option name="closed" value="true" />
+      <created>1776972476434</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1776972476434</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
