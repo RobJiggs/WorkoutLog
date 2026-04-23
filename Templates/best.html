@@ -6,11 +6,12 @@
     {% for monthkey, monthval in month_dict.items() %}
     <h2 class="month-year">{{monthkey}}</h2>
     {% for val in monthval %}
+    {% if val is not number %}
     <p>{{val}}</p>
+    {% endif %}
     {% endfor %}
-     {% endfor %}
+    {% endfor %}
 </div>
-
 
 
 {% endblock content %}
