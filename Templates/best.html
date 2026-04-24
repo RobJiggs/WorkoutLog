@@ -4,12 +4,14 @@
 
 <div class="month-work">
     {% for monthkey, monthval in month_dict.items() %}
-    <h2 class="month-year">{{monthkey}}</h2>
-    {% for val in monthval %}
-    {% if val is not number %}
-    <div class="value-work">
-    <h2 class="value-name">{{val.name}}</h2>
-    <p class="value-desc">{{val.desc}}</p>
+    <div class="mont-container">
+        <h2 class="month-year">{{monthkey}}</h2>
+        {% for val in monthval %}
+        {% if val is not number %}
+        <div class="value-work">
+            <h2 class="value-name">{{val.name}}</h2>
+            <p class="value-desc">{{val.desc}}</p>
+        </div>
     </div>
     {% endif %}
     {% endfor %}
