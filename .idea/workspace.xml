@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9120ea2f-936b-4846-8c70-18824e1e9e56" name="Changes" comment="Workout Logs">
-      <change beforePath="$PROJECT_DIR$/static/css/year.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/year.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/yearly.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Workout.py" beforeDir="false" afterPath="$PROJECT_DIR$/Workout.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +196,63 @@
       <option name="project" value="LOCAL" />
       <updated>1777046727711</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Workout Logs">
+      <option name="closed" value="true" />
+      <created>1777046921316</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1777046921316</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Workout Logs">
+      <option name="closed" value="true" />
+      <created>1777046927878</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1777046927878</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Workout Logs">
+      <option name="closed" value="true" />
+      <created>1777047033359</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1777047033359</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Workout Logs">
+      <option name="closed" value="true" />
+      <created>1777047116631</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1777047116631</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Workout Logs">
+      <option name="closed" value="true" />
+      <created>1777047191993</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1777047191993</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Workout Logs">
+      <option name="closed" value="true" />
+      <created>1777047276816</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1777047276816</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Workout Logs">
+      <option name="closed" value="true" />
+      <created>1777048874321</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1777048874321</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

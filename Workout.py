@@ -287,3 +287,5 @@ def best_count(request: Request, db: Session = Depends(get_db)):
             "best.html",
             {"request": request, "sessions": worksessions,"month_dict":month_dict},
         )
+
+
