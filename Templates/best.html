@@ -7,8 +7,10 @@
     <h2 class="month-year">{{monthkey}}</h2>
     {% for val in monthval %}
     {% if val is not number %}
+    <div class="value-work">
     <h2 class="value-name">{{val.name}}</h2>
     <p class="value-desc">{{val.desc}}</p>
+    </div>
     {% endif %}
     {% endfor %}
     {% endfor %}
