@@ -252,6 +252,7 @@ def basketball(request: Request, db: Session = Depends(get_db)):
 def best_count(request: Request, db: Session = Depends(get_db)):
     month_dict={}
     for i in range(1, 13):
+
         this_year = dt_date.today().year
         begin_month=dt_date.today().replace(month=i,day=1)
         last_day = calendar.monthrange(this_year, begin_month.month)[1]

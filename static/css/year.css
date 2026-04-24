@@ -6,16 +6,30 @@
 
 }
 
-.month-work{
-
-    text-align:center;
-
-
+.month-work {
+    text-align: center;
 }
 
-.value-work{
-width:200;
+.mont-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+    width: fit-content;      /* shrink to content */
+    max-width: 600px;        /* prevent it from getting too wide */
 
+    padding: 30px 30px;      /* extra space around content */
+    margin: 0 auto 20px;     /* center it horizontally */
 
+    border: solid;
+    border-radius: 8px;
+}
+
+.value-work {
+    width: 400px;
+    margin: 10px 0;
+}
+
+.value-name {
+    /* remove right:50% — it does nothing without position */
 }
